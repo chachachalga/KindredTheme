@@ -4471,6 +4471,6 @@ color: white;
     margin-top: -5px;
 }
 
-.visual-refresh #vc-spotify-album-image {
+/*.visual-refresh #vc-spotify-album-image {
     border-radius: 20px;
-}
+}*/ /* this doesnt seem to work, test later */
