@@ -4470,3 +4470,7 @@ color: white;
     background: hsl(from var(--main-color) h calc(var(--saturation-factor, 1) * s) l/0.5);
     margin-top: -5px;
 }
+
+.visual-refresh #vc-spotify-album-image {
+    border-radius: 5px;
+}
