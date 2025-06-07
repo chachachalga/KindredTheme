@@ -4105,7 +4105,8 @@ display:none
   --channel-muted: rgb(99, 99, 99);
   /* APP BACKGROUND */
   --background-shading-percent: 100%;
-  --background-image: url(https://imgur.com/QL7fdyh.png);
+  /*--background-image: url(https://imgur.com/QL7fdyh.png);*/
+  --background-image: url(https://raw.githubusercontent.com/chachachalga/KindredTheme/refs/heads/main/KindredWallpaper.jpg);
   --background-attachment: fixed;
   --background-shading: rgba(25, 29, 71, 255);
   --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
