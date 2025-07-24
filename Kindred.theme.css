@@ -4311,9 +4311,18 @@ font-weight: 900;
 }
 
 /* BOOSTS BAR GRADIENT */
+
+/*Boosts Bar*/
 .progressContainer0d0f9 {
-background: linear-gradient(to right, rgb(170, 164, 255), rgb(123, 88, 219)) !important;
+  background: linear-gradient(to right, rgb(8, 25, 255), rgb(6, 205, 255)) !important;
 }
+.progress0d0f9 {
+ background: linear-gradient(to right, rgb(8, 25, 255), rgb(6, 205, 255)) !important;
+}
+
+/*.progressContainer0d0f9 {
+background: linear-gradient(to right, rgb(170, 164, 255), rgb(123, 88, 219)) !important;
+}*/
 
 /* .progress0d0f9 {
  background: linear-gradient(to right, rgb(8, 25, 255), rgb(6, 205, 255)) !important;
