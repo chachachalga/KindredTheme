@@ -4314,10 +4314,10 @@ font-weight: 900;
 
 /*Boosts Bar*/
 .progressContainer0d0f9 {
-  background: linear-gradient(to right, rgb(8, 25, 255), rgb(6, 205, 255)) !important;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0)) !important;
 }
 .progress0d0f9 {
- background: linear-gradient(to right, rgb(8, 25, 255), rgb(6, 205, 255)) !important;
+ background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0)) !important;
 }
 
 /*.progressContainer0d0f9 {
