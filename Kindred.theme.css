@@ -4311,9 +4311,13 @@ font-weight: 900;
 }
 
 /* BOOSTS BAR GRADIENT */
-.progressBar_eff079 {
+.progressContainer0d0f9 {
 background: linear-gradient(to right, rgb(170, 164, 255), rgb(123, 88, 219)) !important;
 }
+
+/* .progress0d0f9 {
+ background: linear-gradient(to right, rgb(8, 25, 255), rgb(6, 205, 255)) !important;
+} */
 
 .descriptionClamp_f5f93a {
 line-clamp: unset;
