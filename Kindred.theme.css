@@ -234,7 +234,7 @@ border:none
 }
 
 .input__0f084:focus,.input__0f084.focused__0f084{
-box-shadow:0 0 2px 2px var(--hsl-main-color)
+box-shadow:0 0 2px 2px transparent
 }
 
 .input__0f084.inputField_d64f22{
@@ -1970,15 +1970,15 @@ color:var(--interactive-active)
 }
 
 .searchBar__5ec2f{
-background-color:var(--hsl-input-shading);
+background-color: transparent;
 
 border:none;
 
-box-shadow:0 0 0 2px var(--hsl-input-border-shading)
+box-shadow:none
 }
 
 .searchBar__5ec2f:focus-within{
-box-shadow:0 0 0 2px var(--hsl-main-color)
+box-shadow:none 
 }
 
 .visual-refresh .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf{
@@ -4454,6 +4454,8 @@ background-color: rgb(40, 27, 61, 0.25);
 border-radius: 10px;
 border: 1px solid rgba(225, 240, 253, 0.123);
 margin-right: 20px;
+margin-top: 4px;
+margin-bottom: 95px;
 }
 
 .sidebarRegionScroller__23e6b .thin_d125d2 .scrollerBase_d125d2 .fade_d125d2 {
@@ -4485,6 +4487,102 @@ color: white;
     margin-top: -5px;
 }
 
-/*.visual-refresh #vc-spotify-album-image {
+.visual-refresh #vc-spotify-album-image {
     border-radius: 20px;
-}*/ /* this doesnt seem to work, test later */
+}
+
+/* removing the weird grey gradient at the bottom of the chat and fixing the offset */
+.chatGradientBase__36d07{background:none};
+
+.align-chat-input .inTextChannel_b88801.base_b88801 {
+  background: transparent;
+}
+.chatGradientBase__36d07 {
+  background: none;
+}
+.align-chat-input .scrollerSpacer__36d07 {
+  height: 16px;
+}
+.align-chat-input .form_f75fb0 {
+  margin-top: 4px;
+}
+
+/*Typing Indicator (colors dots)*/
+.base_b88801 .ellipsis_b88801 {
+  display: block;
+  flex: 0 0 auto;
+  margin-left: 0;
+  color: var(--hover-color);
+}
+
+.input__0f084 {background:none;box-shadow:none;};
+
+.button__6af3a{border-radius:4px}.primary__6af3a{background:var(--hsl-main-color);border-color:rgba(0,0,0,0)}.primary__6af3a:hover{background:var(--hsl-hover-color);border-color:rgba(0,0,0,0)}
+
+.button__6af3a{border-radius:4px}
+.primary__6af3a{background:var(--hsl-main-color);border-color:rgba(0,0,0,0)};
+
+.sidebarRegionScroller__23e6b .thin_d125d2 .scrollerBase_d125d2 .fade_d125d2{margin-top:25px;};
+
+.credentialItem__6c75d {background-color:var(--secondary-color)};
+.container__3412a {box-shadow: none; scrollbar-highlight-color: transparent};
+
+.fieldButton__1fed1 {background-color: none};
+.removeButton__1fed1 {background-color: none};
+.button__201d5 {background-color: none};
+
+.header__5cea9 {
+  background:var(--secondary-color)
+}
+.box_f8c98c {
+  background:var(--hsl-card-shading);border:none
+}
+.row__0624f {
+  background:var(--background-mod-subtle);border:none
+}
+.authedAppV2__50a54 {
+  background:var(--secondary-color)
+}
+
+.headerV2__50a54 {background:var(--secondary-color)}
+.appDetailsContainer__50a54{background:var(--secondary-color)}
+.appDetailsContainer__50a54 .appDetailsSection__50a54 {
+  background:var(--background-mod-subtle);padding:16px
+}
+.appDetailsContainer__50a54 .appDetailsSection__50a54:active {
+  background:var(--background-mod-subtle)
+}
+.appDetailsContainer__50a54 .appDetailsSection__50a54:first-child {
+  border-radius:8px 8px 0 0
+}
+.appDetailsContainer__50a54 .appDetailsSection__50a54:nth-child(2) {
+  border-radius:0 0 8px 8px
+}
+
+.actionMenuButton_d84e0f{background:var(--secondary-hover-color)}
+
+.vc-addon-card{background:var(--secondary-color)}
+
+.skuCard_d4883c{background:var(--secondary-color)}
+
+.switchContainer_eda416{background:var(--secondary-color)}
+
+.headerContainer__7db08{background:var(--secondary-color); margin-top: 4px; border-radius: 6px}
+.control__2e2f2{margin-left: 10px; margin-right: 10px}
+.container__3f413{margin-right: 390px; margin-left: 10px; margin-bottom: 10px}
+.textButton__98277 {margin-right: 20px}
+
+.wrapper__3412a {margin-right: 100px}
+
+.section_cc79ae{background-color:var(--secondary-color)}
+.container_b4f99f{background-color:var(--secondary-color)}
+.section__6fdb8{background-color:var(--secondary-color)}
+.stack_dbd263{background-color:var(--secondary--color)}
+.checkboxWrapper_c4538f{background-color:var(--secondary--color)}
+.mainContainer_c5e6a1{background-color:var(--secondary-color); border-radius: 8px}
+.backgroundModifierContainer__6cd3a{background-color:var(--secondary-color); border-radius: 8px}
+
+.progressContainer__0d0f9{background-color:var(--secondary--color)}
+.titleContainer_e29cd7{background-color:transparent}
+.header_c6bf1b{background-color:transparent}
+.safetyChecklist_eae0ef{background-color:var(--secondary--color)}
