@@ -1,5 +1,3 @@
-/*@import url(https://raw.githubusercontent.com/chachachalga/KindredTheme/refs/heads/main/Kindred.theme.css);*/
-
 @keyframes cv-channel-select {
     from {
         right:100%;
@@ -4582,7 +4580,18 @@ color: white;
 .mainContainer_c5e6a1{background-color:var(--secondary-color); border-radius: 8px}
 .backgroundModifierContainer__6cd3a{background-color:var(--secondary-color); border-radius: 8px}
 
-.progressContainer__0d0f9{background-color:var(--secondary--color)}
+.progressContainer__0d0f9{background-color:var(--secondary-color)}
 .titleContainer_e29cd7{background-color:transparent}
 .header_c6bf1b{background-color:transparent}
-.safetyChecklist_eae0ef{background-color:var(--secondary--color)}
+.safetyChecklist_eae0ef{background-color:var(--secondary-color)}
+
+/*.container__9293f{background-color:var(--secondary-color) !important}
+.powerupsContainer__89463{background-color:var(--secondary-color) !important}
+.sidebarContainer__89463{background-color:var(--secondary-color) !important}
+.progressContainer__823e1{background-color:var(--secondary-color) !important}
+.container__5573a{background-color:var(--secondary-color) !important}
+.container__73454{background-color:var(--secondary-color) !important}
+.mainContent__08415{background-color:var(--secondary-hover-color) !important}
+.inventory__1feb0{background-color:var(--secondary-hover-color) !important}
+
+*/
